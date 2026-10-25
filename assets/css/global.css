@@ -1,0 +1,17 @@
+:root {
+  --color-brand-navy: #192f80;
+  --color-brand-blue: #247fbd;
+  --color-brand-cyan: #2eacd4;
+  --color-brand-sky: #c6d8f0;
+  --color-brand-white: #ffffff;
+  --color-ink: #20345f;
+  --color-muted: #7183a2;
+  --color-surface: #e8f0fb;
+  --color-success: #198754;
+  --color-danger: #b42335;
+  --shadow-soft: 9px 9px 22px rgba(112, 139, 178, .22), -9px -9px 22px rgba(255, 255, 255, .86);
+  --shadow-inset: inset 4px 4px 9px rgba(112, 139, 178, .16), inset -4px -4px 9px rgba(255, 255, 255, .9);
+}
+
+html { min-height: 100%; }
+body { color: var(--color-ink); }
